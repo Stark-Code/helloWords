@@ -1,0 +1,61 @@
+Drop Down Menu (Restart, Exit, Pauses Timer) - Blacks Out Screen
+
+Canvas Image takes xy parameters as x, y
+
+Make GUI x,y coordinates non trivial
+Put iced tiles on a timer
+Make a Rules Title Menu Option
+For draw order.. need to make button/labels a canvas object instead
+
+
+
+def print_Board(board):
+    for rowIdx, row in enumerate(board):
+        temp = []
+        for col in row:
+            temp.append(col.__str__())
+        print(temp)
+
+
+move tile
+# self.parent.delete(self.tile.structure)
+        # self.tile.structure = self.parent.create_image(e.x, e.y, image=self.tile.image)
+        # self.parent.delete(self.tile.lettering)
+        # self.tile.lettering = self.parent.create_text(e.x, e.y, font=self.parent.tile_Font, text=self.tile.letter)
+
+generica redraw
+        # self.parent.delete(self.tile.structure)
+        # self.tile.structure = self.parent.create_image((self.tile.pos[1] * 50) + 45, (self.tile.pos[0] * 50) + 45,
+        #                                                image=self.tile.image)
+        # self.parent.delete(self.tile.lettering)
+        # self.tile.lettering = self.parent.create_text((self.tile.pos[1] * 50) + 45, (self.tile.pos[0] * 50) + 45,
+        #                                               font=self.parent.tile_Font, text=self.tile.letter)
+
+iced
+# self.parent.delete(tile.structure)
+                        # tile.structure = self.parent.create_image((col_Idx * 50) + 45, (row_Idx * 50) + 45,
+                        #                                           image=tile.image)
+                        # self.parent.delete(tile.lettering)
+                        # tile.lettering = self.parent.create_text((col_Idx * 50) + 45, (row_Idx * 50) + 45,
+                        #                                          font=self.parent.tile_Font, text=tile.letter)
+
+error word
+# self.parent.delete(tile.structure)
+                # tile.structure = self.parent.create_image((tile_Pos[1] * 50) + 45, (tile_Pos[0] * 50) + 45,
+                #                                           image=tile.image)
+                # self.parent.delete(tile.lettering)
+                # tile.lettering = self.parent.create_text((tile_Pos[1] * 50) + 45, (tile_Pos[0] * 50) + 45,
+                #                                          fill='orange', font=self.parent.tile_Font, text=tile.letter)
+
+swap tile
+ # self.parent.delete(swap_Tile.structure)
+            # swap_Tile.structure = self.parent.create_image((swap_Tile.pos[1] * 50) + 45, (swap_Tile.pos[0] * 50) + 45,
+            #                                                image=swap_Tile.image)
+            # self.parent.delete(swap_Tile.lettering)
+            # swap_Tile.lettering = self.parent.create_text((swap_Tile.pos[1] * 50) + 45, (swap_Tile.pos[0] * 50) + 45,
+            #                                               font=self.parent.tile_Font, text=swap_Tile.letter)
+
+
+
+Main > Select_Game_Mode() >
+
